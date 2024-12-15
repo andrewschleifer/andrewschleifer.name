@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    color: #404040;
+}
+
+html {
+    border-style: solid;
+    border-width: 0.5rem 0 0 0;
+    border-color: #400040;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    max-width: 50rem;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+pre {
+    overflow: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    ol {
+        column-count: 2;
+    }
+    body {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
